@@ -52,17 +52,36 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmAddProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddProducto.Designer.cs">
+      <DependentUpon>FrmAddProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCatalogoProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCatalogoProducto.Designer.cs">
+      <DependentUpon>FrmCatalogoProducto.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmViewProducto.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmViewProducto.Designer.cs">
       <DependentUpon>FrmViewProducto.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\ProductoModel.cs" />
     <Compile Include="Poco\Producto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddProducto.resx">
+      <DependentUpon>FrmAddProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCatalogoProducto.resx">
+      <DependentUpon>FrmCatalogoProducto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmViewProducto.resx">
       <DependentUpon>FrmViewProducto.cs</DependentUpon>
