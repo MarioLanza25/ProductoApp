@@ -1,5 +1,4 @@
-﻿using ProductoApp.Model;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,7 +12,6 @@ namespace ProductoApp
 {
     public partial class FrmViewProducto : Form
     {
-        public ProductoModel productoModel { get; set; }
         public FrmViewProducto()
         {
             InitializeComponent();

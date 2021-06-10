@@ -1,0 +1,13 @@
+C:\Users\Dell\Desktop\App\ProductoApp\ProductoApp\ProductoApp\bin\Debug\ProductoApp.exe.config
+C:\Users\Dell\Desktop\App\ProductoApp\ProductoApp\ProductoApp\bin\Debug\ProductoApp.exe
+C:\Users\Dell\Desktop\App\ProductoApp\ProductoApp\ProductoApp\bin\Debug\ProductoApp.pdb
+C:\Users\Dell\Desktop\App\ProductoApp\ProductoApp\ProductoApp\obj\Debug\ProductoApp.csprojAssemblyReference.cache
+C:\Users\Dell\Desktop\App\ProductoApp\ProductoApp\ProductoApp\obj\Debug\ProductoApp.Form1.resources
+C:\Users\Dell\Desktop\App\ProductoApp\ProductoApp\ProductoApp\obj\Debug\ProductoApp.FrmAddProducto.resources
+C:\Users\Dell\Desktop\App\ProductoApp\ProductoApp\ProductoApp\obj\Debug\ProductoApp.FrmCatalogoProducto.resources
+C:\Users\Dell\Desktop\App\ProductoApp\ProductoApp\ProductoApp\obj\Debug\ProductoApp.FrmViewProducto.resources
+C:\Users\Dell\Desktop\App\ProductoApp\ProductoApp\ProductoApp\obj\Debug\ProductoApp.Properties.Resources.resources
+C:\Users\Dell\Desktop\App\ProductoApp\ProductoApp\ProductoApp\obj\Debug\ProductoApp.csproj.GenerateResource.cache
+C:\Users\Dell\Desktop\App\ProductoApp\ProductoApp\ProductoApp\obj\Debug\ProductoApp.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\App\ProductoApp\ProductoApp\ProductoApp\obj\Debug\ProductoApp.exe
+C:\Users\Dell\Desktop\App\ProductoApp\ProductoApp\ProductoApp\obj\Debug\ProductoApp.pdb
