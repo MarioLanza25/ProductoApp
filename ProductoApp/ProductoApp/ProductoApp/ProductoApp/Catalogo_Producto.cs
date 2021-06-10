@@ -12,9 +12,17 @@ namespace ProductoApp
 {
     public partial class Catalogo_Producto : Form
     {
+        private ProductoModel.ProductoModel productoModel;
+        
         public Catalogo_Producto()
         {
             InitializeComponent();
+            ReadProducto();
+        }
+
+        private void ReadProducto()
+        {
+            productoModel = new ProductoModel.ProductoModel();
         }
     }
 }

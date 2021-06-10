@@ -46,6 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\Marca.cs" />
+    <Compile Include="Enums\Modelo.cs" />
+    <Compile Include="FrmAgregarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarProducto.Designer.cs">
+      <DependentUpon>FrmAgregarProducto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Catalogo_Producto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,10 +73,14 @@
       <DependentUpon>FrmViewProducto.cs</DependentUpon>
     </Compile>
     <Compile Include="Poco\Producto.cs" />
+    <Compile Include="ProductoModel\ProductoModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Catalogo_Producto.resx">
       <DependentUpon>Catalogo_Producto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarProducto.resx">
+      <DependentUpon>FrmAgregarProducto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>

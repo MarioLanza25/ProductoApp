@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProductoApp.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,5 +17,7 @@ namespace ProductoApp
         {
             InitializeComponent();
         }
+
+        internal ProductoModel ProductoModel { get; set; }
     }
 }

@@ -36,12 +36,15 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
-            this.txtExistencias = new System.Windows.Forms.TextBox();
-            this.txtMarca = new System.Windows.Forms.TextBox();
-            this.txtModelo = new System.Windows.Forms.TextBox();
             this.txtPrecio = new System.Windows.Forms.TextBox();
             this.txtDescrip = new System.Windows.Forms.TextBox();
             this.txtImagen = new System.Windows.Forms.TextBox();
+            this.btnAgregar = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.numericUpDown = new System.Windows.Forms.NumericUpDown();
+            this.cmbMarca = new System.Windows.Forms.ComboBox();
+            this.cmbModelo = new System.Windows.Forms.ComboBox();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -83,7 +86,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(36, 229);
+            this.label5.Location = new System.Drawing.Point(36, 236);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(63, 13);
             this.label5.TabIndex = 4;
@@ -92,7 +95,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(36, 185);
+            this.label6.Location = new System.Drawing.Point(36, 192);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(37, 13);
             this.label6.TabIndex = 5;
@@ -114,37 +117,16 @@
             this.txtNombre.Size = new System.Drawing.Size(224, 20);
             this.txtNombre.TabIndex = 8;
             // 
-            // txtExistencias
-            // 
-            this.txtExistencias.Location = new System.Drawing.Point(155, 58);
-            this.txtExistencias.Name = "txtExistencias";
-            this.txtExistencias.Size = new System.Drawing.Size(224, 20);
-            this.txtExistencias.TabIndex = 9;
-            // 
-            // txtMarca
-            // 
-            this.txtMarca.Location = new System.Drawing.Point(155, 98);
-            this.txtMarca.Name = "txtMarca";
-            this.txtMarca.Size = new System.Drawing.Size(224, 20);
-            this.txtMarca.TabIndex = 10;
-            // 
-            // txtModelo
-            // 
-            this.txtModelo.Location = new System.Drawing.Point(155, 142);
-            this.txtModelo.Name = "txtModelo";
-            this.txtModelo.Size = new System.Drawing.Size(224, 20);
-            this.txtModelo.TabIndex = 11;
-            // 
             // txtPrecio
             // 
-            this.txtPrecio.Location = new System.Drawing.Point(155, 177);
+            this.txtPrecio.Location = new System.Drawing.Point(155, 185);
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(224, 20);
             this.txtPrecio.TabIndex = 12;
             // 
             // txtDescrip
             // 
-            this.txtDescrip.Location = new System.Drawing.Point(155, 221);
+            this.txtDescrip.Location = new System.Drawing.Point(155, 229);
             this.txtDescrip.Name = "txtDescrip";
             this.txtDescrip.Size = new System.Drawing.Size(224, 20);
             this.txtDescrip.TabIndex = 13;
@@ -156,17 +138,60 @@
             this.txtImagen.Size = new System.Drawing.Size(224, 20);
             this.txtImagen.TabIndex = 14;
             // 
+            // btnAgregar
+            // 
+            this.btnAgregar.Location = new System.Drawing.Point(276, 319);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(75, 23);
+            this.btnAgregar.TabIndex = 15;
+            this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.UseVisualStyleBackColor = true;
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.Location = new System.Drawing.Point(357, 319);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(75, 23);
+            this.btnEliminar.TabIndex = 16;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            // 
+            // numericUpDown
+            // 
+            this.numericUpDown.Location = new System.Drawing.Point(155, 61);
+            this.numericUpDown.Name = "numericUpDown";
+            this.numericUpDown.Size = new System.Drawing.Size(224, 20);
+            this.numericUpDown.TabIndex = 17;
+            // 
+            // cmbMarca
+            // 
+            this.cmbMarca.FormattingEnabled = true;
+            this.cmbMarca.Location = new System.Drawing.Point(155, 101);
+            this.cmbMarca.Name = "cmbMarca";
+            this.cmbMarca.Size = new System.Drawing.Size(224, 21);
+            this.cmbMarca.TabIndex = 18;
+            // 
+            // cmbModelo
+            // 
+            this.cmbModelo.FormattingEnabled = true;
+            this.cmbModelo.Location = new System.Drawing.Point(155, 145);
+            this.cmbModelo.Name = "cmbModelo";
+            this.cmbModelo.Size = new System.Drawing.Size(224, 21);
+            this.cmbModelo.TabIndex = 19;
+            // 
             // FrmAddProducto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(444, 369);
+            this.Controls.Add(this.cmbModelo);
+            this.Controls.Add(this.cmbMarca);
+            this.Controls.Add(this.numericUpDown);
+            this.Controls.Add(this.btnEliminar);
+            this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.txtImagen);
             this.Controls.Add(this.txtDescrip);
             this.Controls.Add(this.txtPrecio);
-            this.Controls.Add(this.txtModelo);
-            this.Controls.Add(this.txtMarca);
-            this.Controls.Add(this.txtExistencias);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -177,6 +202,8 @@
             this.Controls.Add(this.label1);
             this.Name = "FrmAddProducto";
             this.Text = "FrmAddProducto";
+            this.Load += new System.EventHandler(this.FrmAddProducto_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -192,11 +219,13 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtNombre;
-        private System.Windows.Forms.TextBox txtExistencias;
-        private System.Windows.Forms.TextBox txtMarca;
-        private System.Windows.Forms.TextBox txtModelo;
         private System.Windows.Forms.TextBox txtPrecio;
         private System.Windows.Forms.TextBox txtDescrip;
         private System.Windows.Forms.TextBox txtImagen;
+        private System.Windows.Forms.Button btnAgregar;
+        private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.NumericUpDown numericUpDown;
+        private System.Windows.Forms.ComboBox cmbMarca;
+        private System.Windows.Forms.ComboBox cmbModelo;
     }
 }
