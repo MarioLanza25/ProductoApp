@@ -1,7 +1,0 @@
-C:\Users\Oscar\Source\Repos\ProductoApp\ProductoApp\ProductoApp\ProductoApp\ProductoApp\obj\Debug\ProductoApp.csprojAssemblyReference.cache
-C:\Users\Oscar\Source\Repos\ProductoApp\ProductoApp\ProductoApp\ProductoApp\ProductoApp\obj\Debug\ProductoApp.Catalogo_Producto.resources
-C:\Users\Oscar\Source\Repos\ProductoApp\ProductoApp\ProductoApp\ProductoApp\ProductoApp\obj\Debug\ProductoApp.FrmPrincipal.resources
-C:\Users\Oscar\Source\Repos\ProductoApp\ProductoApp\ProductoApp\ProductoApp\ProductoApp\obj\Debug\ProductoApp.FrmViewProducto.resources
-C:\Users\Oscar\Source\Repos\ProductoApp\ProductoApp\ProductoApp\ProductoApp\ProductoApp\obj\Debug\ProductoApp.Properties.Resources.resources
-C:\Users\Oscar\Source\Repos\ProductoApp\ProductoApp\ProductoApp\ProductoApp\ProductoApp\obj\Debug\ProductoApp.csproj.GenerateResource.cache
-C:\Users\Oscar\Source\Repos\ProductoApp\ProductoApp\ProductoApp\ProductoApp\ProductoApp\obj\Debug\ProductoApp.csproj.CoreCompileInputs.cache
